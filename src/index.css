@@ -1,0 +1,2298 @@
+body {
+  margin: 0;
+  font-family: "Work Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav .link {
+  text-decoration: none;
+}
+.footer-span {
+  text-decoration: underline;
+}
+
+/* Background-color */
+.bg-green {
+  background-color: #213d34;
+}
+.bg-lightgreen {
+  background-color: #d9ef78;
+}
+.bg-ash {
+  background-color: #f1f2ed;
+}
+
+/* color */
+.text-green {
+  color: #213d34;
+}
+.text-lightgreen {
+  color: #d9ef78;
+}
+.text-beige {
+  color: #f8f5ef;
+}
+.text-ash {
+  color: #f1f2ed;
+}
+
+/* border color */
+.border-green {
+  border: 2px solid #213d34;
+}
+/* width */
+.w-2 {
+  width: 2%;
+}
+.w-3 {
+  width: 3%;
+}
+.w-4 {
+  width: 4%;
+}
+.w-5 {
+  width: 5%;
+}
+.w-8 {
+  width: 8%;
+}
+.w-10 {
+  width: 10%;
+}
+.w-13 {
+  width: 13%;
+}
+.w-15 {
+  width: 15%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-35 {
+  width: 35%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-55 {
+  width: 55%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-90 {
+  width: 90%;
+}
+/* height */
+.h-5 {
+  height: 5%;
+}
+.h-10 {
+  height: 10%;
+}
+.h-35 {
+  height: 35%;
+}
+.h-70 {
+  height: 70px;
+}
+
+/* padding */
+.px-6 {
+  padding: 0 60px;
+}
+.px-7 {
+  padding: 0 70px;
+}
+.py-6 {
+  padding: 60px 0;
+}
+.py-7 {
+  padding: 70px 0;
+}
+/* margin */
+.my-6 {
+  margin: 70px 0;
+}
+.me-6 {
+  margin-right: 70px;
+}
+.mt-6 {
+  margin-top: 70px;
+}
+.ms-6 {
+  margin-left: 70px;
+}
+.ms-9 {
+  margin-left: 100px;
+}
+.ms-10 {
+  margin-left: 90%;
+}
+.mb-8 {
+  margin-bottom: 80px;
+}
+.my-8 {
+  margin: 90px 0;
+}
+/* font-size */
+.fs-10 {
+  font-size: 60px;
+}
+.fs-9 {
+  font-size: 58px;
+}
+.fs-8 {
+  font-size: 50px;
+}
+.fs-11 {
+  font-size: 40px;
+}
+.fs-7 {
+  font-size: 22px;
+}
+.fs-13 {
+  font-size: 46px;
+}
+.fs-12 {
+  font-size: 35px;
+}
+
+/* gap */
+.gap-6 {
+  gap: 12%;
+}
+.gap-7 {
+  gap: 25%;
+}
+.gap-8 {
+  gap: 10%;
+}
+/* position */
+.top-2 {
+  top: 2%;
+}
+.top-5 {
+  top: 5%;
+}
+.top-10 {
+  position: absolute;
+  top: 10%;
+}
+.top-12 {
+  top: 12%;
+}
+.top-20 {
+  top: 20%;
+}
+.left-5 {
+  left: 5%;
+}
+.left-45 {
+  left: 45%;
+}
+.left-51 {
+  left: 51%;
+}
+.left-55 {
+  left: 55%;
+}
+.left-65 {
+  left: 65%;
+}
+
+/* Media queries */
+@media (max-width: 1199.98px) {
+  .nav li a {
+    font-size: 20px;
+  }
+  .nav .logo {
+    width: 6%;
+  }
+  .navsec .sec-3 p {
+    font-size: 20px;
+  }
+  .navsec .sec-3 button {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+  .bannersec-1 h1 {
+    font-size: 50px;
+  }
+  .bannersec-1 .icon {
+    padding: 8px !important;
+    width: 5% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 8px;
+    width: 5%;
+  }
+  .bannersec-2 .icon img {
+    width: 80% !important;
+  }
+  .bansec-31 h1 {
+    font-size: 45px;
+  }
+  .bansec-31 p {
+    font-size: 22px;
+  }
+  .bansec-33 button {
+    padding: 20px 20px !important;
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+  }
+  .bansec-33 h3 {
+    font-size: 35px;
+  }
+  .bansec-33 p {
+    font-size: 22px !important;
+  }
+  .bansec-34 h1 {
+    font-size: 45px !important;
+  }
+  .bansec-34 p {
+    font-size: 22px;
+  }
+  .demosec-2 p {
+    font-size: 35px;
+  }
+  .demo div {
+    width: 6%;
+  }
+  .work div {
+    width: 6%;
+  }
+  .benefit div {
+    width: 8%;
+  }
+  .benefitsec-1 .div1 {
+    padding: 10px !important;
+  }
+  .benefitsec-1 .div1 h3 {
+    margin-top: 35% !important;
+    font-size: 30px;
+  }
+  .benefitsec-1 .div2 img {
+    height: 60%;
+  }
+  .benefitsec-1 .div3 {
+    padding: 10px !important;
+  }
+  .benefitsec-1 .div3 h3 {
+    margin-top: 35% !important;
+    font-size: 30px;
+  }
+  .benefitsec-1 .div4 {
+    padding: 22px 25px !important;
+  }
+  .benefitsec-1 .div4 h3 {
+    font-size: 30px;
+  }
+  .benefitsec-2 .div1 h3 {
+    font-size: 30px;
+  }
+  .benefitsec-2 .div2 h3 {
+    font-size: 30px;
+  }
+  .benefitsec-2 .div3 {
+    padding: 15px 22px !important;
+  }
+  .benefitsec-2 .div3 h3 {
+    font-size: 30px;
+    margin-top: 28%;
+  }
+  .benefitsec-2 .div4 {
+    margin-top: 30px;
+    width: 30%;
+  }
+  .recipe div {
+    width: 7%;
+  }
+
+  .recipesec-1 .div1 h3 {
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div1 button {
+    margin-top: 10px !important;
+    padding: 20px 40px !important;
+  }
+  .recipesec-1 .div21 {
+    margin: 10px;
+  }
+  .recipesec-1 .div2 h4 {
+    margin-top: 10px;
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div2 button {
+    margin-top: 15px !important;
+    padding: 20px 40px !important;
+  }
+  .recipesec-1 .div3 h4 {
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div3 button {
+    margin-top: 15px !important;
+    padding: 20px 40px !important;
+  }
+  .recipesec-2 {
+    width: 65% !important;
+  }
+  .testimonialsec-1 div {
+    width: 7%;
+  }
+  .testimonialsec-2 .div1 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div1 {
+    padding: 25px 10px !important;
+  }
+  .testimonialsec-2 img {
+    width: 30% !important;
+  }
+  .testimonialsec-2 .div2 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div2 {
+    padding: 25px 10px !important;
+  }
+  .testimonialsec-2 .div3 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div3 {
+    padding: 25px 10px !important;
+  }
+  .testimonialsec-2 .div4 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div4 {
+    padding: 25px 10px !important;
+  }
+  .pricingsec .div1 {
+    width: 15%;
+    margin-top: 150px;
+  }
+  .pricingsec .div2 {
+    padding: 20px !important;
+  }
+  .pricingsec .div2 button {
+    padding: 20px !important;
+    font-size: 20px;
+  }
+  .pricingsec .div3 {
+    padding: 20px !important;
+  }
+  .pricingsec .div3 button {
+    padding: 30px !important;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .pricingsec .div4 {
+    padding: 20px !important;
+  }
+  .pricingsec .div4 button {
+    padding: 20px 30px !important;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .pricingsec .div5 {
+    width: 15%;
+    margin-top: 150px;
+  }
+
+  .insight div {
+    width: 8%;
+  }
+  .insightsec h3 {
+    font-size: 30px;
+  }
+  .insightsec .div1 {
+    padding: 20px;
+  }
+  .insightsec .div2 {
+    padding: 20px;
+  }
+  .insightsec .div3 {
+    padding: 20px;
+  }
+  .insightsec button {
+    margin: 15px 0 !important;
+  }
+  .question h1 {
+    font-size: 40px !important;
+  }
+  .question p {
+    font-size: 22px;
+  }
+  .question div {
+    width: 6%;
+  }
+  .questionsec-1 p {
+    font-size: 20px !important;
+  }
+  .questionsec-1 {
+    gap: 10px !important;
+  }
+  .questionsec-2 p {
+    font-size: 20px !important;
+  }
+  .questionsec-2 .div1 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div1-1 button {
+    margin: 15px 0;
+  }
+  .questionsec-2 .div1-2 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-2 .div2-1 button {
+    margin: 15px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-2 .div2-2 {
+    padding: 10px 15px !important;
+  }
+  .questionsec-2 .div2 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div3 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div3-2 button {
+    margin: 40px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 24px 0 !important;
+  }
+  .need div {
+    width: 6%;
+  }
+  .needsec .div2 p {
+    font-size: 30px;
+  }
+  .needsec .div1 .img {
+    margin-top: 130px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navsec .logo {
+    width: 9%;
+  }
+  .navsec .sec2 ul {
+    gap: 20px !important;
+  }
+  .navsec .sec-3 button {
+    padding: 20px !important;
+  }
+  .bannersec-1 {
+    gap: 20px !important;
+  }
+  .bannersec-1 h1 {
+    font-size: 40px;
+  }
+
+  .bannersec-1 .icon {
+    padding: 5px;
+    width: 6% !important;
+  }
+  .bannersec-1 .icon img {
+    width: 100% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 8px;
+    width: 7%;
+  }
+  .bannersec-2 .icon img {
+    width: 80% !important;
+  }
+  .bannersec-3 {
+    gap: 5px !important;
+  }
+  .bansec-31 h1 {
+    margin-top: 10px !important;
+    font-size: 36px !important;
+  }
+  .bansec-31 p {
+    font-size: 20px !important;
+  }
+  .bansec-31 .img {
+    margin-left: 10px !important;
+  }
+  .bansec-33 button {
+    padding: 20px 10px !important;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+    font-size: 17px !important;
+  }
+  .bansec-33 .div {
+    padding: 10px !important;
+  }
+  .bansec-33 h3 {
+    font-size: 26px;
+  }
+  .bansec-33 p {
+    font-size: 18px !important;
+  }
+  .bansec-34 h1 {
+    font-size: 36px !important;
+  }
+  .bansec-34 p {
+    font-size: 20px !important;
+  }
+  .bansec-34 img {
+    margin-left: 8px !important;
+    width: 88% !important;
+  }
+  .demosec-2 p {
+    font-size: 28px !important;
+    margin-top: 20px !important;
+  }
+  .demo div {
+    width: 8%;
+  }
+  .work div {
+    width: 6%;
+  }
+  .work h1 {
+    font-size: 38px !important;
+  }
+  .work p {
+    font-size: 20px !important;
+  }
+  .worksec-1 .ptag {
+    font-size: 35px !important;
+  }
+  .worksec-1 p {
+    font-size: 22px !important;
+  }
+  .worksec-1 .icon {
+    padding: 15px 35px !important;
+  }
+  .worksec-2 .div1 {
+    margin: 100px 20px !important;
+  }
+  .worksec-2 .div2 {
+    top: 16% !important;
+  }
+  .worksec-2 .div3 {
+    top: 17%;
+  }
+  .benefit div {
+    width: 8%;
+  }
+  .benefit p {
+    font-size: 20px !important;
+  }
+  .benefit h1 {
+    font-size: 40px !important;
+  }
+  .benefitsec-1 .div1 {
+    padding: 5px !important;
+  }
+  .benefitsec-1 .div1 h3 {
+    margin-top: 37% !important;
+    font-size: 25px;
+  }
+  .benefitsec-1 .div2 {
+    width: 32%;
+  }
+  .benefitsec-1 .div2 img {
+    margin: 20px 0;
+    height: 90% !important;
+  }
+  .benefitsec-1 .div3 {
+    padding: 5px !important;
+  }
+  .benefitsec-1 .div3 h3 {
+    margin-top: 35% !important;
+    font-size: 25px;
+  }
+  .benefitsec-1 .div4 {
+    padding: 22px 25px !important;
+  }
+  .benefitsec-1 .div4 h3 {
+    font-size: 25px;
+  }
+  .benefitsec-1 p {
+    font-size: 18px !important;
+  }
+  .benefitsec-2 p {
+    font-size: 18px !important;
+  }
+  .benefitsec-2 .div1 h3 {
+    font-size: 25px;
+  }
+  .benefitsec-2 .div2 h3 {
+    font-size: 25px;
+  }
+  .benefitsec-2 .div3 {
+    padding: 15px !important;
+  }
+  .benefitsec-2 .div3 h3 {
+    font-size: 25px;
+    margin-top: 28%;
+  }
+  .benefitsec-2 .div4 {
+    margin-top: 25px;
+    width: 35% !important;
+  }
+  .recipe div {
+    margin-top: 5px;
+    width: 8%;
+  }
+  .recipe h2 {
+    font-size: 40px !important;
+  }
+  .recipe p {
+    font-size: 20px;
+  }
+  .recipesec {
+    gap: 10px !important;
+  }
+  .recipesec-1 img {
+    margin-top: 20px !important ;
+  }
+  .recipesec-1 .div1 h3 {
+    font-size: 22px !important;
+  }
+  .recipesec-1 .div1 button {
+    margin-top: 10px !important;
+    padding: 20px !important;
+  }
+  .recipesec-1 .div2 {
+    margin: 10px 0 !important;
+  }
+  .recipesec-1 .div21 {
+    margin: 10px;
+  }
+  .recipesec-1 .div2 h4 {
+    margin-top: 10px;
+    font-size: 22px !important;
+  }
+  .recipesec-1 .div2 {
+    gap: 10px !important;
+  }
+  .recipesec-1 .div2 button {
+    margin-top: 10px !important;
+    padding: 15px 20px !important;
+  }
+  .recipesec-1 .div3 h4 {
+    font-size: 22px !important;
+  }
+  .recipesec-1 .div3 button {
+    margin-top: 10px !important;
+    padding: 20px !important;
+  }
+  .recipesec-2 {
+    width: 68% !important;
+  }
+  .testimonialsec-1 div {
+    width: 7%;
+  }
+  .testimonialsec-1 h1 {
+    font-size: 40px;
+  }
+  .testimonialsec-1 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 {
+    gap: 10px !important;
+  }
+  .testimonialsec-2 p {
+    font-size: 18px !important;
+  }
+  .testimonialsec-2 .div1 {
+    padding: 25px 8px !important;
+  }
+  .testimonialsec-2 img {
+    width: 40% !important;
+  }
+  .testimonialsec-2 .div2 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div2 {
+    padding: 25px 8px !important;
+  }
+  .testimonialsec-2 .div3 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div3 {
+    padding: 25px 8px !important;
+  }
+  .testimonialsec-2 .div4 p {
+    font-size: 20px;
+  }
+  .testimonialsec-2 .div4 {
+    padding: 25px 8px !important;
+  }
+  .pricing h1 {
+    font-size: 40px;
+  }
+  .pricing div {
+    width: 7%;
+  }
+  .pricing p {
+    font-size: 20px;
+  }
+  .pricingsec .div1 {
+    width: 20%;
+    margin-top: 150px;
+  }
+  .pricingsec .div2 {
+    padding: 20px !important;
+  }
+  .pricingsec .ptag {
+    font-size: 30px !important;
+  }
+  .pricingsec h3 {
+    font-size: 30px;
+  }
+  .pricingsec .div2 p {
+    font-size: 20px !important;
+  }
+  .pricingsec .div2 button {
+    padding: 15px !important;
+    font-size: 18px;
+  }
+  .pricingsec .div2 {
+    padding: 10px !important;
+  }
+  .pricingsec .div3 {
+    padding: 10px !important;
+  }
+  .pricingsec .div3 p {
+    font-size: 20px !important;
+  }
+  .pricingsec .div3 button {
+    padding: 20px !important;
+    font-size: 18px;
+    margin-left: 8px;
+  }
+  .pricingsec .div4 {
+    padding: 10px !important;
+  }
+  .pricingsec .div4 p {
+    font-size: 20px !important;
+  }
+  .pricingsec .div4 button {
+    padding: 20px !important;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  .pricingsec .div5 {
+    width: 20%;
+    margin-top: 150px;
+  }
+
+  .insight h1 {
+    font-size: 40px;
+  }
+  .insight p {
+    font-size: 20px;
+  }
+  .insight div {
+    width: 7%;
+    margin-top: 5px;
+  }
+  .insightsec h3 {
+    font-size: 22px;
+  }
+  .insightsec .div1 {
+    padding: 15px !important;
+  }
+  .insightsec .div2 {
+    padding: 15px !important;
+  }
+  .insightsec .div3 {
+    padding: 15px !important;
+  }
+  .insightsec button {
+    margin: 15px 0 !important;
+    padding: 15px !important;
+    font-size: 20px !important;
+  }
+  .question h1 {
+    font-size: 32px !important;
+  }
+  .question p {
+    font-size: 18px;
+  }
+  .question div {
+    margin-top: 5px;
+    width: 8%;
+  }
+  .questionsec-1 p {
+    font-size: 18px !important;
+  }
+  .questionsec-1 {
+    gap: 10px !important;
+  }
+  .questionsec-1 .div1 button {
+    margin: 20px 0 !important;
+  }
+  .questionsec-1 .div2 button {
+    margin: 20px 0 !important;
+  }
+  .questionsec-2 p {
+    font-size: 18px !important;
+  }
+  .questionsec-2 .div1 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div1-1 button {
+    margin: 25px 0 !important;
+  }
+  .questionsec-2 .div1-2 button {
+    margin: 20px 0 !important;
+  }
+  .questionsec-2 .div2-1 button {
+    margin: 10px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 8px 0 !important;
+  }
+  .questionsec-2 .div2 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div3 {
+    gap: 10px !important;
+  }
+  .questionsec-2 .div3-2 button {
+    margin: 35px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 20px 0 !important;
+  }
+  .need h1 {
+    font-size: 40px;
+  }
+  .need div {
+    width: 6%;
+  }
+  .needsec .div2 p {
+    font-size: 23px;
+  }
+  .needsec .div1 .img {
+    margin-left: 20px !important;
+  }
+  .footimg {
+    width: 20% !important;
+  }
+  .footersec-2 p {
+    font-size: 20px !important;
+  }
+  .footersec-1 ul li a {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .footersec-3 .icon {
+    padding: 10px 15px !important;
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .navsec {
+    margin-left: 20px;
+  }
+
+  .nav li a {
+    font-size: 22px;
+  }
+  .nav .logo {
+    width: 15%;
+  }
+  .navsec .sec-3 p {
+    font-size: 22px;
+  }
+  .navsec .sec-3 button {
+    padding: 20px 40px !important;
+    font-size: 20px !important;
+  }
+  .navsec .sec2 ul {
+    gap: 20px !important;
+  }
+  .navsec .sec2 {
+    margin: 20px 0;
+  }
+  .bannersec-1 {
+    gap: 10px !important;
+  }
+  .bannersec-1 h1 {
+    font-size: 28px;
+  }
+
+  .bannersec-1 .icon {
+    padding: 5px;
+    width: 7% !important;
+  }
+  .bannersec-1 .icon img {
+    width: 100% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 8px;
+    width: 8%;
+  }
+  .bannersec-2 p {
+    font-size: 22px;
+  }
+  .bannersec-2 .icon img {
+    width: 80% !important;
+  }
+  .bannersec-3 {
+    gap: 5px !important;
+  }
+  .bansec-31 h1 {
+    margin-top: 10px !important;
+    font-size: 30px !important;
+  }
+  .bansec-31 p {
+    font-size: 16px !important;
+  }
+  .bansec-31 .img {
+    margin-left: 8px !important;
+  }
+  .bansec-33 button {
+    padding: 10px !important;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+  }
+  .bansec-33 .div {
+    padding: 8px !important;
+  }
+  .bansec-33 h3 {
+    font-size: 20px;
+  }
+  .bansec-33 p {
+    font-size: 16px !important;
+  }
+  .bansec-34 h1 {
+    font-size: 30px !important;
+  }
+  .bansec-34 p {
+    font-size: 16px !important;
+  }
+  .bansec-34 img {
+    margin-left: 5px !important;
+    width: 88% !important;
+  }
+  .demo div {
+    width: 9%;
+    margin-top: 5px !important;
+  }
+  .demo h1 {
+    font-size: 40px !important;
+    margin-top: 5px !important;
+  }
+  .demo p {
+    font-size: 18px !important;
+  }
+  .demosec-2 p {
+    font-size: 20px !important;
+    margin-top: 20px !important;
+  }
+  .demosec-1 .div1 {
+    margin-left: 20px !important;
+  }
+  .work div {
+    width: 11%;
+  }
+  .work h1 {
+    font-size: 30px !important;
+  }
+  .work p {
+    font-size: 16px !important;
+  }
+  .worksec-1 .ptag {
+    font-size: 30px !important;
+  }
+  .worksec-1 p {
+    font-size: 20px !important;
+  }
+  .worksec-1 .icon {
+    padding: 15px 30px !important;
+  }
+
+  .worksec-2 .div2 {
+    top: 17% !important;
+    left: 50% !important;
+  }
+  .worksec-2 .div3 {
+    top: 18%;
+    left: 55% !important;
+  }
+  .benefit div {
+    width: 11%;
+  }
+  .benefit p {
+    font-size: 18px !important;
+  }
+  .benefit h1 {
+    font-size: 30px !important;
+  }
+  .benefitsec-1 .div1 {
+    padding: 5px !important;
+  }
+  .benefitsec-1 .div1 h3 {
+    margin-top: 37% !important;
+    font-size: 20px;
+  }
+  .benefitsec-1 .div2 {
+    width: 35% !important;
+  }
+  .benefitsec-1 .div2 img {
+    margin: 20px 0;
+    height: 90% !important;
+  }
+  .benefitsec-1 .div3 {
+    padding: 5px !important;
+  }
+  .benefitsec-1 .div3 h3 {
+    margin-top: 35% !important;
+    font-size: 20px;
+  }
+  .benefitsec-1 .div4 {
+    padding: 10px !important;
+  }
+  .benefitsec-1 .div4 h3 {
+    font-size: 20px;
+  }
+  .benefitsec-1 p {
+    font-size: 15px !important;
+  }
+  .benefitsec-2 p {
+    font-size: 15px !important;
+  }
+  .benefitsec-2 .div1 h3 {
+    font-size: 20px;
+  }
+  .benefitsec-2 .div1 {
+    padding: 5px !important;
+  }
+  .benefitsec-2 .div2 {
+    padding: 5px !important;
+  }
+  .benefitsec-2 .div2 h3 {
+    font-size: 20px;
+  }
+  .benefitsec-2 .div3 {
+    padding: 10px !important;
+  }
+  .benefitsec-2 .div3 h3 {
+    font-size: 20px;
+    margin-top: 26%;
+  }
+  .benefitsec-2 .div4 {
+    margin-top: 25px;
+    width: 40% !important;
+  }
+  .recipe div {
+    margin-top: 5px;
+    width: 10%;
+  }
+  .recipe h2 {
+    font-size: 30px !important;
+  }
+  .recipe p {
+    font-size: 18px;
+  }
+  .recipesec-1 img {
+    margin-top: 10px !important ;
+  }
+  .recipesec-1 .div1 h3 {
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div1 button {
+    margin-top: 10px !important;
+    padding: 20px 30px !important;
+  }
+  .recipesec-1 .div2 {
+    margin: 20px 0 !important;
+  }
+  .recipesec-1 .div21 {
+    margin: 15px;
+  }
+  .recipesec-1 .div2 h4 {
+    margin-top: 10px;
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div2 {
+    gap: 5px !important;
+  }
+  .recipesec-1 .div2 button {
+    margin-top: 10px !important;
+    padding: 15px 30px !important;
+  }
+  .recipesec-1 .div3 h4 {
+    font-size: 28px !important;
+  }
+  .recipesec-1 .div3 button {
+    margin-top: 10px !important;
+    padding: 20px 30px !important;
+  }
+  .recipesec-2 {
+    margin-top: 20px !important;
+    width: 90% !important;
+    margin-left: 20px;
+  }
+  .testimonialsec-1 div {
+    width: 10%;
+    margin-top: 5px !important;
+  }
+  .testimonialsec-1 h1 {
+    font-size: 30px;
+  }
+  .testimonialsec-1 p {
+    font-size: 18px;
+  }
+  .testimonialsec-2 p {
+    font-size: 22px !important;
+  }
+  .testimonialsec-2 .div1 {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .testimonialsec-2 img {
+    width: 20% !important;
+  }
+  .testimonialsec-2 .div2 p {
+    font-size: 22px;
+  }
+  .testimonialsec-2 .div2 {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .testimonialsec-2 .div3 p {
+    font-size: 22px;
+  }
+  .testimonialsec-2 .div3 {
+    padding: 25px 8px !important;
+    margin-bottom: 20px !important;
+  }
+  .testimonialsec-2 .div4 p {
+    font-size: 22px;
+  }
+  .testimonialsec-2 .div4 {
+    padding: 20px !important;
+  }
+  .testimonialsec-2 .subdiv {
+    gap: 20px !important;
+  }
+  .pricing h1 {
+    font-size: 30px;
+  }
+  .pricing div {
+    width: 8%;
+    margin-top: 5px;
+  }
+  .pricing p {
+    font-size: 18px;
+  }
+  .pricingsec .div1 {
+    display: none !important;
+  }
+  .pricingsec .div2 {
+    padding: 10px !important;
+  }
+  .pricingsec .ptag {
+    font-size: 25px !important;
+  }
+  .pricingsec h3 {
+    font-size: 25px;
+  }
+  .pricingsec .div2 p {
+    font-size: 18px !important;
+  }
+  .pricingsec .div2 button {
+    padding: 15px !important;
+    font-size: 18px;
+  }
+  .pricingsec .div2 {
+    padding: 10px !important;
+  }
+  .pricingsec .div3 {
+    padding: 10px !important;
+  }
+  .pricingsec .div3 p {
+    font-size: 18px !important;
+  }
+  .pricingsec .div3 button {
+    padding: 20px !important;
+    font-size: 18px;
+    margin-left: 8px;
+  }
+  .pricingsec .div4 {
+    padding: 10px !important;
+  }
+  .pricingsec .div4 p {
+    font-size: 18px !important;
+  }
+  .pricingsec .div4 button {
+    padding: 20px !important;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  .pricingsec .div5 {
+    display: none !important;
+  }
+  .insight h1 {
+    font-size: 30px;
+  }
+  .insight p {
+    font-size: 18px;
+  }
+  .insight div {
+    width: 11%;
+    margin-top: 5px;
+  }
+  .insightsec h3 {
+    font-size: 20px;
+  }
+  .insightsec .div1 {
+    padding: 10px !important;
+  }
+  .insightsec .div2 {
+    padding: 10px !important;
+  }
+  .insightsec .div3 {
+    padding: 10px !important;
+  }
+  .insightsec button {
+    margin: 15px 0 !important;
+    padding: 8px !important;
+    font-size: 16px !important;
+  }
+  .insightsec .div3 button {
+    padding: 8px 5px !important;
+  }
+  .question h1 {
+    font-size: 28px !important;
+  }
+  .question p {
+    font-size: 16px;
+  }
+  .question div {
+    margin-top: 5px;
+    width: 11%;
+  }
+  .questionsec-1 p {
+    font-size: 16px !important;
+  }
+
+  .questionsec-1 .div1 button {
+    margin: 33px 0 !important;
+  }
+  .questionsec-1 .div2 button {
+    margin: 30px 0 !important;
+  }
+  .questionsec-2 p {
+    font-size: 16px !important;
+  }
+
+  .questionsec-2 .div1-1 button {
+    margin: 43px 0 !important;
+  }
+  .questionsec-2 .div1-2 button {
+    margin: 40px 0 !important;
+  }
+  .questionsec-2 .div2-1 button {
+    margin: 30px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 28px 0 !important;
+  }
+
+  .questionsec-2 .div3-2 button {
+    margin: 63px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 40px 0 !important;
+  }
+  .need h1 {
+    font-size: 30px;
+  }
+  .need div {
+    width: 7%;
+    margin-top: 5px;
+  }
+  .needsec .div2 p {
+    font-size: 17px;
+  }
+  .needsec .div1 .img {
+    margin-top: 120px !important;
+  }
+  .needsec .div2 button {
+    padding: 20px !important;
+    font-size: 18px !important;
+  }
+  .footimg {
+    width: 40% !important;
+  }
+  .footersec-1 {
+    gap: 5px !important;
+  }
+  .footersec-2 p {
+    font-size: 16px !important;
+  }
+  .footersec-1 ul li a {
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+  }
+  .footersec-1 p {
+    font-size: 18px !important;
+  }
+  .footersec-3 .icon {
+    padding: 10px !important;
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .bannersec-1 {
+    gap: 12px !important;
+  }
+  .bannersec-1 h1 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .bannersec-1 .icon {
+    padding: 5px;
+    width: 9% !important;
+    margin-bottom: 10px;
+  }
+  .bannersec-1 .icon img {
+    width: 100% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 8px;
+    width: 9%;
+  }
+  .bannersec-2 {
+    gap: 10px !important;
+  }
+  .bannersec-2 p {
+    font-size: 20px !important;
+  }
+  .bannersec-2 .icon img {
+    width: 90% !important;
+  }
+
+  .bansec-31 {
+    width: 70% !important;
+  }
+  .bansec-31 h1 {
+    margin-top: 15px !important;
+    font-size: 45px !important;
+  }
+  .bansec-31 p {
+    font-size: 25px !important;
+  }
+  .bansec-31 .img {
+    margin-left: 25px !important;
+  }
+  .bansec-32 {
+    width: 70% !important;
+  }
+  .bansec-33 {
+    width: 70% !important;
+  }
+  .bansec-33 button {
+    padding: 20px 50px !important;
+    margin: 20px !important;
+    font-size: 22px !important;
+  }
+  .bansec-33 .div {
+    padding: 10px !important;
+  }
+  .bansec-33 h3 {
+    font-size: 50px;
+  }
+  .bansec-33 p {
+    font-size: 25px !important;
+  }
+  .bansec-34 {
+    width: 70% !important;
+  }
+  .bansec-34 h1 {
+    font-size: 45px !important;
+  }
+  .bansec-34 p {
+    font-size: 22px !important;
+  }
+  .bansec-34 img {
+    margin-left: 22px !important;
+    width: 85% !important;
+  }
+  .bansec-35 {
+    width: 70% !important;
+  }
+  .demo div {
+    width: 16%;
+    margin-top: 5px !important;
+  }
+  .demo h1 {
+    font-size: 28px !important;
+    margin-top: 5px !important;
+  }
+  .demo p {
+    font-size: 20px !important;
+  }
+  .demosec-1 {
+    margin-left: 85px !important;
+  }
+  .demosec-2 p {
+    font-size: 20px !important;
+    margin-top: 20px !important;
+  }
+  .demosec-2 {
+    margin-left: 90px !important;
+  }
+  .work div {
+    margin-top: 5px;
+    width: 20%;
+  }
+  .work h1 {
+    margin-top: 8px;
+    font-size: 25px !important;
+  }
+  .work p {
+    margin-top: 5px;
+    font-size: 16px !important;
+  }
+  .worksec-1 .ptag {
+    font-size: 30px !important;
+  }
+  .worksec-1 p {
+    font-size: 20px !important;
+  }
+  .worksec-1 .icon {
+    padding: 15px 30px !important;
+  }
+  .worksec-2 {
+    padding: 60px 10px !important;
+  }
+  .worksec-2 .div1 {
+    margin: 0px 10px !important;
+    width: 60% !important;
+  }
+  .worksec-2 .div2 {
+    top: 52% !important;
+    left: 12% !important;
+    width: 65% !important;
+  }
+  .worksec-2 .div3 {
+    top: 52%;
+    left: 20% !important;
+    width: 75% !important;
+  }
+  .benefit div {
+    width: 16%;
+  }
+  .benefit p {
+    font-size: 15px !important;
+  }
+  .benefit h1 {
+    font-size: 30px !important;
+  }
+  .benefitsec-1 .div1 {
+    width: 70% !important;
+    padding: 80px 25px !important;
+  }
+  .benefitsec-1 .div1 p {
+    font-size: 20px !important;
+  }
+  .benefitsec-1 .div1 h3 {
+    margin-top: 20px !important;
+    font-size: 30px !important;
+  }
+  .benefitsec-1 .div2 {
+    width: 80% !important;
+    height: 100% !important;
+  }
+  .benefitsec-1 .div2 img {
+    margin: 20px 0;
+  }
+  .benefitsec-1 .div2 {
+    margin-top: 0 !important;
+  }
+  .benefitsec-1 .div3 {
+    margin: 20px 0;
+    width: 70%;
+  }
+  .benefitsec-1 .div3 h3 {
+    margin-top: 0 !important;
+    font-size: 35px;
+  }
+  .benefitsec-1 .div3 p {
+    font-size: 22px !important;
+  }
+  .benefitsec-1 .div4 h3 {
+    font-size: 40px;
+  }
+  .benefitsec-1 .div4 {
+    width: 70% !important;
+    padding: 80px 25px !important;
+  }
+  .benefitsec-1 .div4 p {
+    font-size: 22px !important;
+  }
+
+  .benefitsec-2 p {
+    font-size: 22px !important;
+  }
+  .benefitsec-2 .div1 {
+    margin: 20px 0;
+    width: 70%;
+  }
+  .benefitsec-2 .div1 h3 {
+    font-size: 40px;
+  }
+  .benefitsec-2 .div2 {
+    width: 70%;
+  }
+  .benefitsec-2 .div3 {
+    margin: 20px 0;
+  }
+  .benefitsec-2 .div2 h3 {
+    font-size: 40px;
+  }
+  .benefitsec-2 .div3 {
+    padding: 80px 23px !important;
+    width: 70% !important;
+  }
+  .benefitsec-2 .div3 h3 {
+    font-size: 40px;
+    margin-top: 0 !important;
+  }
+  .benefitsec-2 .div4 {
+    margin-top: 20px;
+    width: 80% !important;
+  }
+  .recipe div {
+    margin-top: 5px;
+    width: 10%;
+  }
+  .recipe h2 {
+    font-size: 25px !important;
+  }
+  .recipe p {
+    font-size: 16px;
+  }
+  .recipesec-1 img {
+    margin-top: 10px !important ;
+  }
+  .recipesec-1 .div1 h3 {
+    font-size: 25px !important;
+  }
+  .recipesec-1 .div2 {
+    margin: 20px 0 !important;
+  }
+  .recipesec-1 .div21 {
+    margin: 15px;
+  }
+  .recipesec-1 .div2 h4 {
+    margin-top: 15px;
+    font-size: 22px !important;
+  }
+  .recipesec-1 .div2 {
+    gap: 5px !important;
+  }
+  .recipesec-1 .div3 h4 {
+    font-size: 25px !important;
+  }
+  .testimonialsec-1 div {
+    width: 10%;
+    margin-top: 5px !important;
+  }
+  .testimonialsec-1 h1 {
+    font-size: 25px;
+  }
+  .testimonialsec-1 p {
+    font-size: 16px;
+  }
+  .pricing h1 {
+    font-size: 25px;
+  }
+  .pricing div {
+    width: 8%;
+    margin-top: 5px;
+  }
+  .pricing p {
+    font-size: 16px;
+  }
+
+  .pricingsec .div2 {
+    width: 70%;
+    padding: 20px !important;
+  }
+  .pricingsec .ptag {
+    font-size: 28px !important;
+  }
+  .pricingsec h3 {
+    font-size: 35px;
+  }
+  .pricingsec .div2 p {
+    font-size: 22px !important;
+  }
+  .pricingsec .div2 button {
+    padding: 15px 30px !important;
+    font-size: 22px;
+    margin-left: 15px;
+  }
+
+  .pricingsec .div3 {
+    padding: 10px !important;
+    width: 70%;
+  }
+  .pricingsec .div3 p {
+    font-size: 22px !important;
+  }
+  .pricingsec .div3 button {
+    padding: 20px 50px !important;
+    font-size: 22px;
+    margin-left: 25px;
+  }
+  .pricingsec .div4 {
+    padding: 20px !important;
+    width: 70%;
+  }
+  .pricingsec .div4 p {
+    font-size: 22px !important;
+  }
+  .pricingsec .div4 button {
+    padding: 20px 50px !important;
+    font-size: 22px;
+    margin-left: 25px;
+  }
+  .insight h1 {
+    font-size: 25px;
+  }
+  .insight p {
+    font-size: 16px;
+  }
+  .insight div {
+    width: 9%;
+    margin-top: 5px;
+  }
+  .insightsec h3 {
+    font-size: 35px;
+  }
+  .insightsec .div1 {
+    padding: 10px !important;
+    width: 70%;
+  }
+  .insightsec .div2 {
+    padding: 10px !important;
+    width: 70%;
+    margin: 20px 0;
+  }
+  .insightsec .div3 {
+    padding: 10px !important;
+    width: 70%;
+  }
+  .insightsec button {
+    margin: 15px 0 !important;
+    padding: 20px 40px !important;
+    font-size: 22px !important;
+  }
+  .insightsec .div3 button {
+    padding: 15px 30px !important;
+  }
+  .question h1 {
+    font-size: 25px !important;
+  }
+  .question p {
+    font-size: 16px;
+  }
+  .question div {
+    margin-top: 5px;
+    width: 11%;
+  }
+  .questionsec-1 p {
+    font-size: 20px !important;
+  }
+  .questionsec-1 .div1 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-1 .div2 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-2 p {
+    font-size: 20px !important;
+  }
+  .questionsec-2 .div1-1 button {
+    margin: 15px 0 !important;
+  }
+  .questionsec-2 .div1-2 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-2 .div2-1 button {
+    margin: 15px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 10px 0 !important;
+  }
+  .questionsec-2 .div1 p {
+    margin-top: 0 !important;
+  }
+  .questionsec-2 .div2 p {
+    margin-top: 0 !important;
+  }
+  .questionsec-2 .div3 p {
+    margin-top: 0 !important;
+  }
+  .questionsec-2 .div3-2 button {
+    margin: 25px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 25px 0 !important;
+  }
+  .need h1 {
+    font-size: 25px;
+  }
+  .need p {
+    font-size: 18px;
+  }
+  .need div {
+    width: 7%;
+    margin-top: 5px;
+  }
+  .needsec .div2 p {
+    font-size: 20px;
+  }
+  .needsec .div2 {
+    margin-left: 40% !important;
+    margin-bottom: 25px;
+  }
+  .needsec .div1 {
+    margin-left: 120px;
+    margin-bottom: 10px;
+  }
+  .needsec .div1 .img {
+    margin-top: 100px !important;
+  }
+  .needsec .div2 button {
+    padding: 20px 30px !important;
+    font-size: 20px !important;
+    margin-top: 0px !important;
+  }
+  .footimg {
+    width: 10% !important;
+  }
+  .footersec-2 p {
+    font-size: 18px !important;
+  }
+  .footersec-1 ul li a {
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+  }
+  .footersec-1 p {
+    font-size: 18px !important;
+  }
+
+  .footersec-3 .icon {
+    width: 10%;
+    padding: 5px !important;
+    font-size: 28px !important;
+  }
+  .footersec-3 .icons {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 450px) {
+  .worksec-2 .div2 {
+    top: 57% !important;
+    left: 12% !important;
+    width: 65% !important;
+  }
+  .worksec-2 .div3 {
+    top: 56%;
+    left: 22% !important;
+    width: 75% !important;
+  }
+  .needsec .div2 p {
+    font-size: 18px;
+  }
+  .needsec .div2 {
+    margin-left: 40% !important;
+    margin-bottom: 30px;
+  }
+  .needsec .div2 button {
+    padding: 20px !important;
+    font-size: 18px !important;
+    margin-top: 0px !important;
+    margin-left: 40px !important;
+  }
+  .footersec-3 .icon {
+    width: 13%;
+  }
+}
+
+@media (max-width: 430px) {
+  .bannersec-1 h1 {
+    font-size: 22px !important;
+  }
+  .bannersec-2 p {
+    font-size: 18px !important;
+  }
+  .bannersec-2 .icon {
+    padding: 8px;
+    width: 10%;
+  }
+  .demo div {
+    width: 13%;
+  }
+  .demo h1 {
+    font-size: 25px !important;
+    margin-top: 5px !important;
+  }
+  .demo p {
+    font-size: 16px !important;
+  }
+  .demosec-1 {
+    margin-left: 95px !important;
+  }
+  .demosec-2 p {
+    font-size: 18px !important;
+  }
+  .recipe div {
+    margin-top: 5px;
+    width: 18%;
+  }
+  .recipe h2 {
+    font-size: 22px !important;
+  }
+  .recipe p {
+    font-size: 15px;
+  }
+  .recipesec-1 .div2 h4 {
+    font-size: 20px !important;
+  }
+  .recipesec-1 .div2 button {
+    padding: 15px 25px !important;
+  }
+  .testimonialsec-1 div {
+    width: 11%;
+  }
+  .testimonialsec-1 h1 {
+    font-size: 22px;
+  }
+  .testimonialsec-1 p {
+    font-size: 14px;
+  }
+  .pricingsec .div2 {
+    width: 80%;
+  }
+  .pricingsec .div2 button {
+    padding: 15px 30px !important;
+  }
+
+  .pricingsec .div3 {
+    width: 80%;
+  }
+  .pricingsec .div3 button {
+    padding: 20px 40px !important;
+  }
+  .pricingsec .div4 {
+    width: 80%;
+  }
+
+  .pricingsec .div4 button {
+    padding: 20px 40px !important;
+  }
+  .insight h1 {
+    font-size: 22px;
+  }
+  .insight p {
+    font-size: 15px;
+  }
+  .insight div {
+    width: 12%;
+  }
+  .question h1 {
+    font-size: 22px !important;
+  }
+  .question p {
+    font-size: 14px;
+  }
+  .question div {
+    width: 18% !important;
+  }
+  .need h1 {
+    font-size: 23px;
+  }
+  .need p {
+    font-size: 16px;
+  }
+  .need div {
+    width: 10%;
+  }
+
+  .needsec .div1 {
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  .needsec .div1 .img {
+    margin-top: 90px !important;
+  }
+}
+@media (max-width: 390px) {
+  .navsec .sec-3 p {
+    font-size: 18px;
+  }
+  .navsec .sec-3 button {
+    padding: 20px 30px !important;
+    font-size: 20px !important;
+  }
+  .navsec .sec2 ul {
+    gap: 10px !important;
+  }
+  .navsec .sec2 ul li a {
+    font-size: 18px !important;
+  }
+  .navsec .sec2 {
+    margin: 20px 0;
+  }
+  .bannersec-1 {
+    gap: 8px !important;
+  }
+  .bannersec-1 h1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .bannersec-1 .icon {
+    padding: 5px;
+    width: 10% !important;
+    margin-bottom: 10px;
+  }
+  .bannersec-1 .icon img {
+    width: 100% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 5px;
+    width: 10%;
+  }
+  .bannersec-2 {
+    gap: 5px !important;
+  }
+
+  .bannersec-2 .icon img {
+    width: 90% !important;
+  }
+
+  .bannersec-2 p {
+    font-size: 16px !important;
+  }
+  .bannersec-3 div {
+    width: 80% !important;
+  }
+  .bansec-33 button {
+    margin: 10px !important;
+    font-size: 20px !important;
+  }
+  .bansec-33 div {
+    margin-left: 10px !important;
+  }
+  .demo div {
+    width: 5%;
+  }
+  .demo h1 {
+    font-size: 22px !important;
+  }
+  .demo p {
+    font-size: 15px !important;
+  }
+  .demosec-1 {
+    margin-left: 80px !important;
+  }
+  .demosec-2 {
+    margin-left: 100px !important;
+  }
+  .demosec-2 p {
+    font-size: 18px !important;
+  }
+  .worksec-2 {
+    padding: 50px 10px !important;
+  }
+  .work h1 {
+    font-size: 22px !important;
+  }
+  .work p {
+    font-size: 15px !important;
+  }
+  .worksec-2 .div2 {
+    top: 63% !important;
+    left: 15% !important;
+  }
+  .worksec-2 .div3 {
+    top: 63%;
+    left: 23% !important;
+  }
+  .benefit div {
+    width: 20%;
+  }
+  .benefit p {
+    font-size: 14px !important;
+  }
+  .benefit h1 {
+    font-size: 25px !important;
+  }
+  .benefitsec-1 .div1 {
+    width: 80% !important;
+  }
+  .benefitsec-1 .div3 {
+    width: 80%;
+  }
+  .benefitsec-1 .div4 {
+    width: 80% !important;
+  }
+  .benefitsec-2 .div1 {
+    width: 80%;
+  }
+  .benefitsec-2 .div1 h3 {
+    font-size: 40px;
+  }
+  .benefitsec-2 .div2 {
+    width: 80%;
+  }
+  .benefitsec-2 .div2 h3 {
+    font-size: 36px;
+  }
+  .benefitsec-2 .div3 {
+    width: 80% !important;
+  }
+  .benefitsec-2 .div4 {
+    width: 80% !important;
+  }
+  .recipe div {
+    margin-top: 5px;
+    width: 18%;
+  }
+  .recipe h2 {
+    font-size: 20px !important;
+  }
+  .recipe p {
+    font-size: 14px;
+  }
+  .recipesec-1 .div1-2 {
+    width: 40% !important;
+  }
+  .recipesec-1 .div1 h3 {
+    font-size: 20px !important;
+  }
+  .recipesec-1 .div1 button {
+    padding: 20px !important;
+    font-size: 18px;
+  }
+  .recipesec-1 .div2 {
+    margin: 25px 0 !important;
+    gap: 5px !important;
+  }
+  .recipesec-1 .div21 {
+    margin: 15px;
+    width: 30% !important;
+  }
+  .recipesec-1 .div2 button {
+    padding: 15px 10px !important;
+    margin-top: 0px !important;
+    font-size: 16px !important;
+  }
+  .recipesec-1 .div2 h4 {
+    margin-top: 15px;
+    font-size: 16px !important;
+  }
+  .recipesec-1 .div2 {
+    gap: 5px !important;
+  }
+  .recipesec-1 .div3 h4 {
+    font-size: 20px !important;
+  }
+  .recipesec-1 .div3 button {
+    padding: 20px !important;
+    font-size: 16px;
+  }
+  .testimonialsec-1 div {
+    width: 16%;
+  }
+  .testimonialsec-1 h1 {
+    font-size: 20px;
+  }
+  .testimonialsec-1 p {
+    font-size: 14px;
+  }
+  .pricing h1 {
+    font-size: 22px;
+  }
+  .pricing div {
+    width: 10%;
+  }
+  .pricing p {
+    font-size: 14px;
+  }
+  .insight h1 {
+    font-size: 20px;
+  }
+  .insight p {
+    font-size: 14px;
+  }
+  .insight div {
+    width: 14%;
+  }
+  .insightsec h3 {
+    font-size: 30px;
+  }
+  .insightsec .div1 {
+    width: 80%;
+  }
+  .insightsec .div2 {
+    width: 80%;
+  }
+  .insightsec .div3 {
+    width: 80%;
+  }
+  .insightsec button {
+    padding: 20px 30px !important;
+    font-size: 20px !important;
+  }
+  .question h1 {
+    font-size: 20px !important;
+  }
+  .questionsec-1 p {
+    font-size: 18px !important;
+  }
+
+  .questionsec-1 .div2 button {
+    margin: 20px 0 !important;
+  }
+  .questionsec-2 p {
+    font-size: 18px !important;
+  }
+  .questionsec-2 .div1-1 button {
+    margin: 5px 0 !important;
+  }
+  .questionsec-2 .div1-2 button {
+    margin: 15px 0 !important;
+  }
+  .questionsec-2 .div2-1 button {
+    margin: 5px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 5px 0 !important;
+  }
+  .questionsec-2 .div1 p {
+    margin-top: 0 !important;
+  }
+  .questionsec-2 .div3 p {
+    margin-top: 0 !important;
+  }
+  .questionsec-2 .div3-2 button {
+    margin: 30px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 18px 0 !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .bannersec-1 h1 {
+    font-size: 20px !important;
+  }
+
+  .bannersec-1 .icon {
+    padding: 2px !important;
+    width: 10% !important;
+  }
+  .bannersec-2 .icon {
+    padding: 2px;
+    width: 10%;
+  }
+  .bannersec-2 {
+    gap: 5px !important;
+  }
+  .bannersec-2 p {
+    font-size: 15px !important;
+  }
+  .benefitsec-2 .div3 h3 {
+    font-size: 34px;
+  }
+  .questionsec-1 p {
+    font-size: 16px !important;
+  }
+
+  .questionsec-1 .div2 button {
+    margin: 20px 0 !important;
+  }
+  .questionsec-2 p {
+    font-size: 16px !important;
+  }
+
+  .questionsec-2 .div2-1 button {
+    margin: 13px 0;
+  }
+  .questionsec-2 .div2-2 button {
+    margin: 13px 0 !important;
+  }
+
+  .questionsec-2 .div3-2 button {
+    margin: 35px 0 !important;
+  }
+  .questionsec-2 .div3-1 button {
+    margin: 23px 0 !important;
+  }
+  .need h1 {
+    font-size: 20px;
+  }
+  .need p {
+    font-size: 14px;
+    margin-top: 5px !important;
+  }
+  .need div {
+    width: 11%;
+  }
+
+  .needsec .div1 {
+    margin-left: 70px;
+    margin-bottom: 10px;
+  }
+  .needsec .div2 p {
+    font-size: 16px;
+  }
+  .needsec .div2 {
+    margin-left: 35% !important;
+  }
+  .needsec .div2 button {
+    padding: 15px !important;
+    font-size: 16px !important;
+  }
+  .footersec-3 .icon {
+    width: 15%;
+  }
+}
